@@ -1,7 +1,7 @@
 const Home = () => {
     return (
         <>
-            <Toolbar option={true}/>
+           <h1>Home</h1> 
         </>
     )
 }
