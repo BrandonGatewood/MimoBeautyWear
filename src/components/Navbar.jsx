@@ -1,29 +1,61 @@
 import { useState } from "react";
-import { Link, NavLink } from "react-router-dom";
+import { NavLink } from "react-router-dom";
+
+// Styles and assets 
+import Logo from "../assets/mimoLogo.png";
+import Hamburger from "../assets/hamburger.svg?react";
+import CloseNavbar from "../assets/close.svg?react";
+import "../css/navbar.css";
 
 const Navbar = () => {
-    const [ showNavBar, setShowNavbar ] = useState(false);
+    const [ showNavbar, setShowNavbar ] = useState(false);
 
     const handleShowNavbar = () => {
-        setShowNavbar(!showNavBar);
+        setShowNavbar(!showNavbar);
     }
 
     return(
         <>
         <nav className="navbar">
-            <NavLink to='/'>
-                Home
-            </NavLink>
-            <NavLink to='/Services'>
-                Services 
-            </NavLink>
-            <NavLink to='/Faq'>
-                Faq 
-            </NavLink>
-            <NavLink to='/Contact'>
-                Contact 
-            </NavLink>
-            
+            <div className="container">
+                <div className="logo">
+                    <NavLink to='/'>
+                        <img src={ Logo }  alt="Mimo's Logo" className="logo" />
+                    </NavLink>
+                </div>
+                <div className="menuIcon" onClick={ handleShowNavbar }>
+                    { !showNavbar && <Hamburger /> }
+                    { showNavbar && <CloseNavbar /> }
+                </div>
+                {
+                    showNavbar && 
+                        <button type='button' className='overlayButton' onClick={ handleShowNavbar }></button>
+                }
+                <div className={`nav-elements  ${ showNavbar && 'active'}`}>
+                    <ul>
+                        <li>
+                            <NavLink to='/Home'>
+                                Home
+                            </NavLink>
+                        </li>
+                        <li>
+                            <NavLink to='/Services'>
+                                Services 
+                            </NavLink>
+                        </li>
+                        <li>
+                            <NavLink to='/Faq'>
+                                Faq 
+                            </NavLink>
+                        </li>
+                        <li>
+                            <NavLink to='/Contact'>
+                                Contact 
+                            </NavLink>
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </nav>
         </>
     );
