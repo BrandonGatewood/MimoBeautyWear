@@ -14,7 +14,7 @@ const Footer = () => {
             </div>
             <div className="info">
                 <div className="contactInfo">
-                    <h1>Contact</h1>
+                    <h2>Contact</h2>
                     <div className="contactRow">
                         <LocationIcon />
                         <div>
@@ -28,7 +28,7 @@ const Footer = () => {
                     </div>
                 </div>
                 <div className="hoursInfo">
-                    <h1>Hours</h1>
+                    <h2>Hours</h2>
                     <div className="hrsRow">
                         <p>Monday - Friday</p>
                         <p>9:00am - 6:00pm</p>
@@ -43,7 +43,7 @@ const Footer = () => {
                     </div>
                 </div>
                 <div className="socialsInfo">
-                    <h1 className="socialsHeader">Socials</h1>
+                    <h2 className="socialsHeader">Socials</h2>
                     <div className="socials">
                         <Instagram />
                         <Facebook />
