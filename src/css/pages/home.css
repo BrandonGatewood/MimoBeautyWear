@@ -4,7 +4,7 @@ h1 {
 
 /** 
 
-Landing Page 
+            Landing Page 
 
 **/
 
@@ -14,13 +14,11 @@ Landing Page
     height: 500px;
 }
 
-
-
-
+/** Call to action **/
 .ctaSection {
     width: 100%;
     border-bottom: 1px solid var(--primary);
-    background: linear-gradient(180deg, rgba(241,168,195,1) 0%, rgba(254,251,252,1) 100%);
+    background: linear-gradient(180deg, var(--primary) 0%, var(--white) 100%);
 }    
 
 .ctaImg {
@@ -40,6 +38,44 @@ Landing Page
     border-radius: 5px;
     font-weight: 600;
     font-size: large;
+}
+
+
+/** About Us **/
+.aboutUs {
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/** Carousel **/
+.carouselContainer {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow: hidden;
+    border-bottom: 1px solid var(--primary);
+}
+.carouselItem {
+    background: black;
+    border: 1px solid red;
+    height: 20rem;
+    min-width: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 1s cubic-bezier(0.39, 0.575, 0.565, 1);
+}
+.carouselItem1 {
+    background: red;
+    height: 20rem;
+    min-width: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 1s cubic-bezier(0.39, 0.575, 0.565, 1);
 }
 
 
@@ -110,16 +146,4 @@ Landing Page
     .aboutUsBody {
         padding: 10px 500px 0 500px; 
     }
-}
-
-
-
-
-
-/** About Us **/
-.aboutUs {
-    padding: 40px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
 }

@@ -3,8 +3,25 @@ import Footer from "../components/Footer";
 // Styles and assets
 import "../css/pages/home.css";
 import fakeImg from "../assets/fakeimg.png";
+import { useState, useEffect } from "react";
 
 const Home = () => {
+    const data = ["1", "2", "3", "4", "5"];
+    const [ curr, setCurr] = useState(0);
+    const scroll = () => {
+        if(curr == data.length - 1) {
+            return setCurr(0);
+        }
+
+        return setCurr(curr + 1);
+    }
+
+    useEffect( () => {
+        const interval = setInterval( () => {scroll()}, 3000);
+        
+        return () => clearInterval(interval);
+    });
+
     return (
         <>
             <div className="ctaSection">
@@ -24,7 +41,15 @@ const Home = () => {
                     <button className="ctaButton">Find Your Perfect Fit</button>
                 </div>
             </div> 
+            <div className="carouselContainer">
+                {
+                    data.map( (item, index) => {
+                        return <h1 className="carouselItem" style={{transform: `translate(-${curr * 100}%)`}}>
 
+                        </h1>
+                    })
+                } 
+            </div>
 
 
 
