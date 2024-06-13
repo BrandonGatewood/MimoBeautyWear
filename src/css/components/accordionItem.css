@@ -3,8 +3,16 @@ h3 {
 }
 h4 {
     margin: 0;
+    text-align: start;
 }
 
+.serviceSection {
+    width: 100%;
+    border: none;
+    background-color: transparent;
+    font-size: medium;
+    font-weight: 600;
+}
 .serviceHeader {
     margin: 0 20px;
     display: flex;
@@ -26,15 +34,20 @@ h4 {
 }
 
 .serviceBody {
-    margin: 0 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    margin: 20px 25px 0 25px;
     border-left: 2px solid var(--primary);
 }
 
 .aType {
-    padding-left: 10px;
-    margin-top: 20px;
+    padding: 10px ;
 }
 
 .duration {
+    font-weight: 400;
     font-style: italic;
+    text-align: start;
 }

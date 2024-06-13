@@ -62,6 +62,7 @@ const Services = () => {
         </div>
 
         <div className="bookAppointmentContainer">
+            <p className="pricing">For pricing information, please contact us directly.</p>
             <a href="/Contact">
                 <button className="bookButton">Book Appointmnet</button>
             </a>

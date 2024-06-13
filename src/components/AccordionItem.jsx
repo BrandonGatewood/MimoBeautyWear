@@ -12,6 +12,35 @@ const AccordionItem = ({ category, type }) => {
     }
         return(
             <>
+            <button className="serviceSection" onClick={ handleOpen }>
+                <div className="serviceHeader">
+                    <h3>{ category }</h3>
+                    {
+                        !open && <Open /> 
+                    }
+                    {
+                        open && <Close />
+                    }
+                </div>
+                {
+                    open && 
+                    <div className="serviceBody">
+                        {
+                            type.map( aType => {
+                                return (
+                                    <div className="aType">
+                                        <h4>{ aType.name }</h4>
+                                        <p className="duration">Duration: { aType.duration }</p>
+                                    </div>
+                                )
+                            })
+                        }
+                    </div>
+                }
+            </button>
+            {
+                /**
+                 
             <div className="serviceSection">
                 <div className="serviceHeader">
                     <h3>{ category }</h3>
@@ -44,6 +73,8 @@ const AccordionItem = ({ category, type }) => {
                     </div>
                 }
             </div>
+                **/
+            }
             </>
         );
     }
