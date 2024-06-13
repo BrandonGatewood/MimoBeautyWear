@@ -7,7 +7,7 @@
 
 /** Tab **/
 .servicesContent {
-    padding: 0 20px; 
+    padding: 20px; 
     display: flex;
     justify-content: center;
 }
@@ -17,14 +17,12 @@
     width: 50%;
     border: none;
     background-color: var(--white);
-    border-radius: 0 0 5px 5px;
+    border-radius: 5px;
     font-size: medium;
     font-weight: 600;
 }
 .workerButton:hover {
-    border-bottom: 2px solid var(--primary);
-    border-right: 2px solid var(--primary);
-    border-left: 2px solid var(--primary);
+    border: 2px solid var(--primary);
 }
 .active {
     font-size: large;

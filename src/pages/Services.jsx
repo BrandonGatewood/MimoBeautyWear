@@ -2,7 +2,7 @@ import { useState } from "react";
 
 // Components
 import Footer from "../components/Footer";
-import AccordionItem from "../components/AccordionItem";
+import ServicesAccordionItem from "../components/ServicesAccordionItem";
 
 // Data
 import JeanniesServices from "../data/JeanniesServices.json";
@@ -38,7 +38,7 @@ const Services = () => {
             {
                 JeanniesServices.map( service => {
                     return (
-                        <AccordionItem category={service.category} type={service.type} /> 
+                        <ServicesAccordionItem category={service.category} type={service.type} /> 
                     )
                 })
             }  
@@ -55,7 +55,7 @@ const Services = () => {
             {
                 JanetsServices.map( service => {
                     return (
-                        <AccordionItem category={service.category} type={service.type} /> 
+                        <ServicesAccordionItem category={service.category} type={service.type} /> 
                     )
                 })
             }  

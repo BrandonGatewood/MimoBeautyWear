@@ -1,7 +1,7 @@
 /** More questions section **/
 .moreQuestionsContainer {
     height: 200px;
-    padding: 20px 0;
+    padding: 20px;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -25,4 +25,7 @@
 .contactButton:active {
     background-color: transparent;
     border: 2px solid var(--primary);
+}
+.question {
+    text-align: center;
 }
