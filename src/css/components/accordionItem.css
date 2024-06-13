@@ -1,0 +1,40 @@
+h3 {
+    margin: 0;
+}
+h4 {
+    margin: 0;
+}
+
+.serviceHeader {
+    margin: 0 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 70px;
+    border-bottom: 2px solid var(--primary);
+}
+
+.serviceButton {
+    padding: 0;
+    height: 50px;
+    width: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    background-color: transparent;
+}
+
+.serviceBody {
+    margin: 0 25px;
+    border-left: 2px solid var(--primary);
+}
+
+.aType {
+    padding-left: 10px;
+    margin-top: 20px;
+}
+
+.duration {
+    font-style: italic;
+}

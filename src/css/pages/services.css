@@ -1,0 +1,66 @@
+.header {
+    padding: 40px 20px 10px 20px;
+    margin: 0 20px;
+    text-align: center;
+    border-bottom: 2px solid var(--primary);
+}
+
+/** Tab **/
+.servicesContent {
+    padding: 0 20px; 
+    display: flex;
+    justify-content: center;
+}
+
+.workerButton {
+    height: 70px;
+    width: 50%;
+    border: none;
+    background-color: var(--white);
+    border-radius: 0 0 5px 5px;
+    font-size: medium;
+    font-weight: 600;
+}
+.workerButton:hover {
+    border-bottom: 2px solid var(--primary);
+    border-right: 2px solid var(--primary);
+    border-left: 2px solid var(--primary);
+}
+.active {
+    font-size: large;
+    background-color: var(--primary);
+}
+
+.content {
+    display: none;
+}
+.show-content {
+    padding-top: 20px;
+    display: block;
+}
+
+
+/** Book Appointmnet Button **/
+.bookAppointmentContainer {
+    padding: 40px 0;
+    text-align: center;
+}
+
+.bookButton {
+    width: 300px;
+    height: 50px;
+    background-color: var(--primary);
+    border: none;
+    border-radius: 5px;
+    font-weight: 600;
+    font-size: large;
+}
+
+.bookButton:hover {
+    background-color: transparent;
+    border: 2px solid var(--primary);
+}
+.bookButton:active {
+    background-color: transparent;
+    border: 2px solid var(--primary);
+}

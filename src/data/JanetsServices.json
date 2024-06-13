@@ -1,0 +1,62 @@
+[
+    {
+        "category": "Brows",
+        "type": [
+            {
+                "name": "Powder Style",
+                "duration": "10 min"
+            },
+            {
+                "name": "Powder Style + Hair Strokes",
+                "duration": "10 min"
+            }
+        ]
+    },
+    {
+        "category": "Eyeliner",
+        "type": [
+            {
+                "name": "Top",
+                "duration": "10 min"
+            },
+            {
+                "name": "Bottom",
+                "duration": "10 min"
+            },
+            {
+                "name": "Top + Bottom",
+                "duration": "10 min"
+            } 
+        ]
+    },
+    {
+        "category": "Lips",
+        "type": [
+            {
+                "name": "Lip Liner",
+                "duration": "10 min"
+            },
+            {
+                "name": "Full Lips",
+                "duration": "10 min"
+            }
+        ]
+    },
+    {
+        "category": "Touch Up",
+        "type": [
+            {
+                "name": "Brows Touch Up",
+                "duration": "10 min"
+            },
+            {
+                "name": "Eyeliner Touch Up",
+                "duration": "10 min"
+            },
+            {
+                "name": "Lip Liner Touch Up",
+                "duration": "10 min"
+            }
+        ]
+    }
+]

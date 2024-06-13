@@ -1,0 +1,49 @@
+[
+    {
+        "category": "Eyelash Extensions",
+        "type": [
+            {
+                "name": "Classic",
+                "duration": "10 min"
+            },
+            {
+                "name": "Hybrid",
+                "duration": "10 min"
+            },
+            {
+                "name": "Retouch",
+                "duration": "10 min"
+            } 
+        ]
+    },
+    {
+        "category": "Hair Services",
+        "type": [
+            {
+                "name": "Hair Cuts",
+                "duration": "10 min"
+            },
+            {
+                "name": "Color",
+                "duration": "10 min"
+            },
+            {
+                "name": "Highlights",
+                "duration": "10 min"
+            } 
+        ]
+    },
+    {
+        "category": "Skin Treatment",
+        "type": [
+            {
+                "name": "Intense Pulse Light",
+                "duration": "10 min"
+            },
+            {
+                "name": "High-Intensity Focused Ultrasound",
+                "duration": "10 min"
+            }
+        ]
+    }
+]

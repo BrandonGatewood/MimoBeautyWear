@@ -1,3 +1,4 @@
+// Components
 import Footer from "../components/Footer";
 
 // Styles and assets
@@ -40,7 +41,9 @@ const Home = () => {
                     </div>
                 </div>
                 <div className="mobileButtonSection">
-                    <button className="ctaButton">Find Your Perfect Fit</button>
+                    <a href="/Services">
+                        <button className="ctaButton">Find Your Perfect Fit</button>
+                    </a>
                 </div>
             </div> 
             <div className="carouselContainer">
