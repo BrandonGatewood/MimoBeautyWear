@@ -26,6 +26,10 @@
     background-color: transparent;
     border: 2px solid var(--primary);
 }
+.questions {
+    padding-top: 20px;
+}
 .question {
+    padding-top: 20px;
     text-align: center;
 }

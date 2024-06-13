@@ -1,7 +1,7 @@
 import { useState } from "react";
 
 // Styles and assets
-import "../css/components/accordionItem.css";
+import "../css/components/serviceAccordionItem.css";
 import Open from "../assets/plus.svg?react";
 import Close from "../assets/closeService.svg?react";
 
