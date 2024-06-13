@@ -29,7 +29,7 @@ const Faq = () => {
         </div>
         <div className="moreQuestionsContainer">
             <a href="/Contact">
-                <button className="contactButton">Book Appointmnet</button>
+                <button className="contactButton">Contact Us</button>
             </a>
         </div>
         <Footer />
