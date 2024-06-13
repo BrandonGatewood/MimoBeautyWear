@@ -39,7 +39,15 @@ h1 {
     font-weight: 600;
     font-size: large;
 }
+.ctaButton:hover {
+    background-color: linear-gradient(180deg, var(--primary) 0%, var(--white) 100%);
+    border: 2px solid var(--primary);
+}
+.ctaButton:active {
+    background-color: linear-gradient(180deg, var(--primary) 0%, var(--white) 100%);
+    border: 1px solid var(--primary);
 
+}
 
 /** About Us **/
 .aboutUs {
@@ -51,6 +59,7 @@ h1 {
 
 /** Carousel **/
 .carouselContainer {
+    padding: 40px;
     display: flex;
     flex-wrap: nowrap;
     overflow: hidden;

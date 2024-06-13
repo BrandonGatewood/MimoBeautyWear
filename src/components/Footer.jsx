@@ -45,8 +45,12 @@ const Footer = () => {
                 <div className="socialsInfo">
                     <h2 className="socialsHeader">Socials</h2>
                     <div className="socials">
-                        <Instagram />
-                        <Facebook />
+                        <a href="https://www.instagram.com/mimobeautywear/?hl=en" target="_blank">
+                            <Instagram />
+                        </a>
+                        <a href="https://www.facebook.com/profile.php?id=100063820051871" target="_blank">
+                            <Facebook />
+                        </a>
                     </div>
                 </div>
             </div>

@@ -30,7 +30,9 @@ const Home = () => {
                         <h1>Discover a</h1>
                         <h1>New Look and Feel</h1>
                         <div className="desktopButtonSection">
-                            <button className="ctaButton">Find Your Perfect Fit</button>
+                            <a href="/Services">
+                                <button to='/Services' className="ctaButton">Find Your Perfect Fit</button>
+                            </a>
                         </div>
                     </div>
                     <div className="ctaImg">
