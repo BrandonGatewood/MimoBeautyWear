@@ -8,8 +8,8 @@ import Facebook from "../assets/facebook.svg?react";
 const Footer = () => {
     return(
         <>
-        <div className="footerSection">
-            <div className="hawaiisBest">
+        <div className="footerContainer">
+            <div className="hawaiisBestSection">
                 <img className="hawaiisBest" src={ HawaiisBest } alt="Image of Mimos achievements" />
             </div>
             <div className="info">
