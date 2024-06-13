@@ -5,7 +5,7 @@ import { NavLink } from "react-router-dom";
 import Logo from "../assets/mimoLogo.png";
 import Hamburger from "../assets/hamburger.svg?react";
 import CloseNavbar from "../assets/close.svg?react";
-import "../css/navbar.css";
+import "../css/components/navbar.css";
 
 const Navbar = () => {
     const [ showNavbar, setShowNavbar ] = useState(false);

@@ -1,15 +1,15 @@
 import Footer from "../components/Footer";
 
-// Styles
-import "../css/home.css";
+// Styles and assets
+import "../css/pages/home.css";
 import fakeImg from "../assets/fakeimg.png";
 
 const Home = () => {
     return (
         <>
-            <div className="landingPage">
-                <div className="ctaSection">
-                    <div className="cta">
+            <div className="ctaSection">
+                <div className="cta">
+                    <div className="ctaContent">
                         <h1>Discover a</h1>
                         <h1>New Look and Feel</h1>
                         <div className="desktopButtonSection">
