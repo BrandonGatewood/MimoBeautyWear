@@ -1,0 +1,28 @@
+/** More questions section **/
+.moreQuestionsContainer {
+    height: 200px;
+    padding: 20px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.contactButton {
+    width: 300px;
+    height: 50px;
+    background-color: var(--primary);
+    border: none;
+    border-radius: 5px;
+    font-weight: 600;
+    font-size: large;
+}
+
+.contactButton:hover {
+    background-color: transparent;
+    border: 2px solid var(--primary);
+}
+.contactButton:active {
+    background-color: transparent;
+    border: 2px solid var(--primary);
+}
