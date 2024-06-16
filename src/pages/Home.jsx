@@ -49,7 +49,7 @@ const Home = () => {
             <div className="carouselContainer">
                 {
                     data.map( (item, index) => {
-                        return <h1 className="carouselItem" style={{transform: `translate(-${curr * 100}%)`}}>
+                        return <h1 key={item} className="carouselItem" style={{transform: `translate(-${curr * 100}%)`}}>
 
                         </h1>
                     })

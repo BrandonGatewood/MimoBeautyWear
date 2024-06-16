@@ -38,7 +38,7 @@ const Services = () => {
             {
                 JeanniesServices.map( service => {
                     return (
-                        <ServicesAccordionItem category={service.category} type={service.type} /> 
+                        <ServicesAccordionItem category={service.category} type={service.type} key={service.category} /> 
                     )
                 })
             }  
@@ -55,7 +55,7 @@ const Services = () => {
             {
                 JanetsServices.map( service => {
                     return (
-                        <ServicesAccordionItem category={service.category} type={service.type} /> 
+                        <ServicesAccordionItem category={service.category} type={service.type} key={service.category} /> 
                     )
                 })
             }  

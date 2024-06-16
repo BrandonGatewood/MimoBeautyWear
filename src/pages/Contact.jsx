@@ -18,6 +18,8 @@ const Contact = () => {
         <p>
             Phone: (808) 955-0029
         </p>
+        <div className="map">
+        </div>
         <Footer />
         </>
     );

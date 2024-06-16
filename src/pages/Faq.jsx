@@ -22,7 +22,7 @@ const Faq = () => {
             {
                 faqData.map( faq => {
                     return(
-                        <FaqAccordionItem question={ faq.question } answer={ faq.answer } />
+                        <FaqAccordionItem question={ faq.question } answer={ faq.answer } key={faq.id} />
                     )
                 })
             }
