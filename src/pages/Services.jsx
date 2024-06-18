@@ -21,8 +21,8 @@ const Services = () => {
         </div>
 
         <div className="servicesContent">
-            <button className={ toggle === 1 ? "workerButton active" : "workerButton" } onClick={ () => setToggle(1) }>With Jeannie</button>
-            <button className={ toggle === 2 ? "workerButton active" : "workerButton" } onClick={ () => setToggle(2) }>With Janet</button>
+            <button className={ toggle === 1 ? "workerButton workerButtonLeft active" : "workerButton workerButtonLeft" } onClick={ () => setToggle(1) }>With Jeannie</button>
+            <button className={ toggle === 2 ? "workerButton workerButtonRight active" : "workerButton workerButtonRight" } onClick={ () => setToggle(2) }>With Janet</button>
         </div>
 
         <div className={ toggle === 1 ? "show-content" : "content" }>

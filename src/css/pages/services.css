@@ -17,16 +17,22 @@
     width: 50%;
     border: none;
     background-color: var(--white);
-    border-radius: 5px;
     font-size: medium;
     font-weight: 600;
+    border-bottom: 2px solid var(--disabled);
 }
-.workerButton:hover {
+.workerButtonLeft:hover {
     border: 2px solid var(--primary);
+    border-radius: 5px 5px 0 5px;
+}
+
+.workerButtonRight:hover {
+    border: 2px solid var(--primary);
+    border-radius: 5px 5px 5px 0;
 }
 .active {
     font-size: large;
-    background-color: var(--primary);
+    border-bottom: 2px solid var(--primary);
 }
 
 .content {
