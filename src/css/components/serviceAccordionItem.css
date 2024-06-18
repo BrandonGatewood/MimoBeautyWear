@@ -16,6 +16,8 @@ h4 {
 }
 .serviceSection:hover {
     cursor: pointer;
+    background-color: var(--primary);
+    border-radius: 5px;
 }
 
 .serviceHeader {
