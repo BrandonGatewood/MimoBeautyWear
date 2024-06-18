@@ -3,7 +3,8 @@ import Footer from "../components/Footer";
 
 // Styles and assets
 import "../css/pages/home.css";
-import fakeImg from "../assets/fakeimg.png";
+import fakeImgMobile from "../assets/stockImages/landingSectionMobile.jpg";
+import fakeImgDesktop from "../assets/stockImages/landingSectionDesktop.jpg";
 import { useState, useEffect } from "react";
 
 const Home = () => {
@@ -37,7 +38,8 @@ const Home = () => {
                         </div>
                     </div>
                     <div className="ctaImg">
-                        <img src={ fakeImg } className="fakeImg" alt="img of a lady performing cosmetic tattoo" />
+                        <img src={ fakeImgMobile } className="imageMobile" alt="img of a lady performing cosmetic tattoo" />
+                        <img src={ fakeImgDesktop } className="imageDesktop" alt="img of a lady performing cosmetic tattoo" />
                     </div>
                 </div>
                 <div className="mobileButtonSection">
@@ -55,17 +57,6 @@ const Home = () => {
                     })
                 } 
             </div>
-
-
-
-
-
-
-
-
-
-
-
             <div className="aboutUs">
                 <h1>About Us</h1>
                 <p className="aboutUsBody">
@@ -76,8 +67,6 @@ const Home = () => {
                     recognition in 2020 and 2021 for Hair Salon services.
                 </p>
                 </div>
-            <div className="gallery">
-            </div>
             <Footer />
         </>
     )
