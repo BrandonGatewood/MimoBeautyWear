@@ -11,7 +11,7 @@ h1 {
 /** Call to action **/
 .ctaSection {
     width: 100%;
-    border-bottom: 1px solid var(--primary);
+    border-bottom: 2px solid var(--primary);
     background: linear-gradient(180deg, var(--primary) 0%, var(--white) 100%);
 }    
 
@@ -49,36 +49,7 @@ h1 {
     display: flex;
     flex-direction: column;
     align-items: center;
-}
-
-/** Carousel **/
-.carouselContainer {
-    padding: 40px;
-    display: flex;
-    flex-wrap: nowrap;
-    overflow: hidden;
-    border-bottom: 1px solid var(--primary);
-}
-.carouselItem {
-    background: black;
-    border: 1px solid red;
-    height: 20rem;
-    min-width: 100%;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    transition: 1s cubic-bezier(0.39, 0.575, 0.565, 1);
-}
-.carouselItem1 {
-    background: red;
-    height: 20rem;
-    min-width: 100%;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    transition: 1s cubic-bezier(0.39, 0.575, 0.565, 1);
+    border-bottom: 2px solid var(--primary);
 }
 
 

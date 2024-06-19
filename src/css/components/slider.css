@@ -1,0 +1,93 @@
+.sliderContainer {
+    padding: 40px 20px;
+}
+
+/** Slider Content **/
+.sliderContent {
+    display: flex;
+    justify-content: center;
+    height: 80%;
+    width: 100%;
+}
+
+.inactive {
+    display: none;
+}
+
+
+
+
+
+
+.slides {
+    width: 350px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.carouselImg {
+    width: 100%;
+    height: auto;
+}
+
+
+/**
+    Slider navigation
+**/
+
+.sliderNavigation {
+    padding-top: 40px;
+    height: 20%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+/** Arrows **/
+.prev, .next {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    border-radius: 50%;
+    background-color: var(--white);
+    cursor: pointer;
+    border: none;
+}
+
+.next {
+    margin-left: 10px;
+}
+.prev {
+    margin-right: 10px;
+}
+.prev:hover, .next:hover {
+    background-color: var(--primary);
+}
+
+
+/** Dots **/
+.allDots {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dot {
+    cursor: pointer;
+    height: 1.5rem;
+    width: 1.5rem;
+    margin-right: 0.5rem;
+    margin-left: 0.5rem;
+    display: inline-block;
+    background-color: var(--disabled);
+    border-radius: 50%;
+}
+
+.activeDot, .dot:hover {
+    height: 2rem;
+    width: 2rem;
+    background-color: var(--primary);
+}

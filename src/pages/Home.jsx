@@ -1,5 +1,6 @@
 // Components
 import Footer from "../components/Footer";
+import Slider from "../components/carousel/Slider";
 
 // Styles and assets
 import "../css/pages/home.css";
@@ -48,15 +49,6 @@ const Home = () => {
                     </a>
                 </div>
             </div> 
-            <div className="carouselContainer">
-                {
-                    data.map( (item, index) => {
-                        return <h1 key={item} className="carouselItem" style={{transform: `translate(-${curr * 100}%)`}}>
-
-                        </h1>
-                    })
-                } 
-            </div>
             <div className="aboutUs">
                 <h1>About Us</h1>
                 <p className="aboutUsBody">
@@ -66,7 +58,8 @@ const Home = () => {
                     Best" awards, including second place in 2015 for Eyelash Extension Services and finalist 
                     recognition in 2020 and 2021 for Hair Salon services.
                 </p>
-                </div>
+            </div>
+            <Slider />
             <Footer />
         </>
     )
