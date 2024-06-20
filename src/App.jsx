@@ -12,7 +12,7 @@ function App() {
   return (
     <>
     <div className="App">
-      <Router>
+      <Router basename="/MimoBeautyWear">
         <Navbar />
         <div className="pages">
           <Routes>
