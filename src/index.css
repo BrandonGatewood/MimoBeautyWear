@@ -10,7 +10,9 @@
   --disabled: #8B8B8B;
 }
 
-
+button {
+  color: #000000;
+}
 body {
   background: var(--white);
   margin: 0;
