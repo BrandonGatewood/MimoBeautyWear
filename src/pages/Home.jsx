@@ -44,7 +44,7 @@ const Home = () => {
                     </div>
                 </div>
                 <div className="mobileButtonSection">
-                    <a href="/Services">
+                    <a href="./Services">
                         <button className="ctaButton">Find Your Perfect Fit</button>
                     </a>
                 </div>
