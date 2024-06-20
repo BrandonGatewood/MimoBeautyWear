@@ -44,7 +44,7 @@ const Home = () => {
                     </div>
                 </div>
                 <div className="mobileButtonSection">
-                    <a href="./Services">
+                    <a href="https://brandongatewood.github.io/MimoBeautyWear/Services">
                         <button className="ctaButton">Find Your Perfect Fit</button>
                     </a>
                 </div>
