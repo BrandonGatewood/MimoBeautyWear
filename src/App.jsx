@@ -16,11 +16,11 @@ function App() {
         <Navbar />
         <div className="pages">
           <Routes>
-            <Route path='/' element={ <Home /> } />
-            <Route path='/Home' element={ <Home /> } />
-            <Route path='/Services' element={ <Services /> } />
-            <Route path='/Faq' element={ <Faq /> } />
-            <Route path='/Contact' element={ <Contact /> } />
+            <Route path='MimoBeautyWear/' element={ <Home /> } />
+            <Route path='MimoBeautyWear/Home' element={ <Home /> } />
+            <Route path='MimoBeautyWear/Services' element={ <Services /> } />
+            <Route path='MimoBeautyWear/Faq' element={ <Faq /> } />
+            <Route path='MimoBeautyWear/Contact' element={ <Contact /> } />
           </Routes>
         </div>
       </Router>
