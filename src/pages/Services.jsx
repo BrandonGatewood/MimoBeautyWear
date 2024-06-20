@@ -7,6 +7,7 @@ import ServicesAccordionItem from "../components/ServicesAccordionItem";
 // Data
 import JeanniesServices from "../data/JeanniesServices.json";
 import JanetsServices from "../data/JanetsServices.json";
+import fakePortrait from "../assets/stockImages/fakePortrait.jpg";
 
 // Styles and assets
 import "../css/pages/services.css";
@@ -27,7 +28,11 @@ const Services = () => {
 
         <div className={ toggle === 1 ? "show-content" : "content" }>
             <div className="serviceProvider">
-                <p>
+                <div className="portraitContainer">
+                    <img className="portrait" src={ fakePortrait }>
+                    </img>
+                </div>
+                <p className="serviceProviderDescription">
                     With over 20 years of experience in hair styling and training at Vidal Sassoon, Jeannie is a master in 
                     her field. She was one of the first eyelash extension technicians in Hawaii, with over 15 years of expertise. 
                     In 2015, Jeannie was a finalist for the best eyelash extensions, showcasing her exceptional skill and 
@@ -45,7 +50,11 @@ const Services = () => {
         </div>
         <div className={ toggle === 2 ? "show-content" : "content" }>
             <div className="serviceProvider">
-                <p>
+                <div className="portraitContainer">
+                    <img className="portrait" src={ fakePortrait }>
+                    </img>
+                </div>
+                <p className="serviceProviderDescription">
                    Janet began her career as a cosmetologist in 1980 and quickly became one of Hawaii's pioneering cosmetic 
                    tattoo artists. As the founder of Mimo Beauty Wear, she has trained numerous artists and helped countless 
                    women and men enhance their beauty and confidence. With decades of experience, Janet continues to provide 
@@ -59,8 +68,10 @@ const Services = () => {
                     )
                 })
             }  
+            <div className="afterCare">
+                <button className="afterCareButton">Download After Care PDF</button>
+            </div>
         </div>
-
         <div className="bookAppointmentContainer">
             <p className="pricing">For pricing information, please contact us directly.</p>
             <a href="/Contact">

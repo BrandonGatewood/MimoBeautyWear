@@ -11,16 +11,17 @@
 .contactButton {
     width: 300px;
     height: 50px;
-    background-color: var(--primary);
-    border: none;
-    border-radius: 5px;
     font-weight: 600;
     font-size: large;
+    background-color: transparent;
+    border: 2px solid var(--primary);
+    border-radius: 5px;
 }
 
 .contactButton:hover {
-    background-color: transparent;
-    border: 2px solid var(--primary);
+    cursor: pointer;
+    background-color: var(--primary);
+    border: none;
 }
 .contactButton:active {
     background-color: transparent;

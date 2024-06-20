@@ -5,13 +5,16 @@
     border-bottom: 2px solid var(--primary);
 }
 
-/** Tab **/
+/** 
+    Service Providers Content 
+**/
 .servicesContent {
     padding: 20px; 
     display: flex;
     justify-content: center;
 }
 
+/** Tabs **/
 .workerButton {
     height: 70px;
     width: 50%;
@@ -22,12 +25,16 @@
     border-bottom: 2px solid var(--disabled);
 }
 .workerButtonLeft:hover {
-    border: 2px solid var(--primary);
+    cursor: pointer;
+    background-color: var(--primary);
+    border-bottom: var(--primary);
     border-radius: 5px 5px 0 5px;
 }
 
 .workerButtonRight:hover {
-    border: 2px solid var(--primary);
+    cursor: pointer;
+    background-color: var(--primary);
+    border-bottom: var(--primary);
     border-radius: 5px 5px 5px 0;
 }
 .active {
@@ -35,6 +42,7 @@
     border-bottom: 2px solid var(--primary);
 }
 
+/** Content **/
 .content {
     display: none;
 }
@@ -44,17 +52,73 @@
 }
 
 .serviceProvider {
-    padding: 20px;
+    padding: 0 20px 20px 20px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
 }
+
+.serviceProviderDescription {
+    width: 50%;
+
+}
+
+.portraitContainer {
+    width: 50%;
+    padding-right: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.portrait {
+    width: 350px;
+    height: 350px;
+}
+
+@media (max-width: 738px) {
+    .serviceProvider {
+        flex-direction: column;
+    }
+    .serviceProviderDescription {
+        width: 100%;
+        padding-top: 20px;
+
+    }
+
+    .portraitContainer {
+        width: 100%;
+        padding-right: 0;
+    }
+}
+
+
 
 .pricing {
     text-align: center;
 }
 
+/** After Care **/
+.afterCare {
+    padding: 40px 20px 0 0;
+    text-align: right;
+}
+
+.afterCareButton {
+    cursor: pointer;
+    border: none;
+    background: none;
+    font-size: 1rem;
+    color: #0000EE;
+}
+.afterCareButton:hover {
+    border-bottom: 1px solid #0000EE;
+}
+
 /** Book Appointmnet Button **/
 .bookAppointmentContainer {
     height: 200px;
-    padding: 20px 0;
+    padding-bottom: 20px;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -64,16 +128,17 @@
 .bookButton {
     width: 300px;
     height: 50px;
-    background-color: var(--primary);
-    border: none;
     border-radius: 5px;
     font-weight: 600;
     font-size: large;
+    background-color: transparent;
+    border: 2px solid var(--primary);
 }
 
 .bookButton:hover {
-    background-color: transparent;
-    border: 2px solid var(--primary);
+    cursor: pointer;
+    background-color: var(--primary);
+    border: none;
 }
 .bookButton:active {
     background-color: transparent;
