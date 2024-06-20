@@ -33,8 +33,8 @@ const Home = () => {
                         <h1>Discover a</h1>
                         <h1>New Look and Feel</h1>
                         <div className="desktopButtonSection">
-                            <a href="/Services">
-                                <button to='/Services' className="ctaButton">Find Your Perfect Fit</button>
+                            <a href="https://brandongatewood.github.io/MimoBeautyWear/Services">
+                                <button className="ctaButton">Find Your Perfect Fit</button>
                             </a>
                         </div>
                     </div>
