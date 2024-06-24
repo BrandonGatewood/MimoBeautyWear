@@ -8,6 +8,7 @@ import ServicesAccordionItem from "../components/ServicesAccordionItem";
 import JeanniesServices from "../data/JeanniesServices.json";
 import JanetsServices from "../data/JanetsServices.json";
 import fakePortrait from "../assets/stockImages/fakePortrait.jpg";
+import afterCare from "../assets/afterCare.pdf";
 
 // Styles and assets
 import "../css/pages/services.css";
@@ -75,7 +76,9 @@ const Services = () => {
                     })
                 }  
                 <div className="afterCare">
-                    <button className="afterCareButton">Download After Care PDF</button>
+                        <a href={afterCare} download="afterCare.pdf" className="afterCareTag">
+                            Download After Care PDF
+                        </a>
                 </div>
             </div>
         </div>

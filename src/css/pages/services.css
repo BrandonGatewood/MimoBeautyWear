@@ -114,15 +114,16 @@
     text-align: right;
 }
 
-.afterCareButton {
+.afterCareTag {
     cursor: pointer;
     border: none;
     background: none;
     font-size: 1rem;
     color: #0000EE;
     border-radius: 0;
+    text-decoration: none;
 }
-.afterCareButton:hover {
+.afterCareTag:hover {
     border-bottom: 1px solid #0000EE;
 }
 
