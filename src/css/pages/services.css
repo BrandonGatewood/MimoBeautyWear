@@ -119,12 +119,12 @@
     border: none;
     background: none;
     font-size: 1rem;
-    color: #0000EE;
+    color: var(--link);
     border-radius: 0;
     text-decoration: none;
 }
 .afterCareTag:hover {
-    border-bottom: 1px solid #0000EE;
+    border-bottom: 1px solid var(--link);
 }
 
 /** Book Appointmnet Button **/

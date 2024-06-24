@@ -21,10 +21,10 @@ const Contact = () => {
                 </p>
             </div>
         </div>
-        <div className="phoneNumber">
-            <p>
+        <div className="phoneNumberDiv">
+            <a href="tel:808-955-0029" className="phoneNumber">
                 Phone: (808) 955-0029
-            </p>
+            </a>
         </div>
         <div className="mapDiv">
             <div className="map">

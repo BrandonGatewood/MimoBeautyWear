@@ -10,9 +10,17 @@
     padding: 20px;
 }
 
-.phoneNumber {
+.phoneNumberDiv {
     text-align: center;
     padding: 20px 0;
+}
+
+.phoneNumber {
+    text-decoration: none;
+}
+
+.phoneNumber:hover {
+    border-bottom: 1px solid var(--link);
 }
 
 .mapDiv {
