@@ -9,13 +9,8 @@
 }
 
 .contactButton {
-    width: 300px;
-    height: 50px;
-    font-weight: 600;
-    font-size: large;
     background-color: transparent;
     border: 2px solid var(--primary);
-    border-radius: 5px;
 }
 
 .contactButton:hover {
@@ -27,10 +22,19 @@
     background-color: transparent;
     border: 2px solid var(--primary);
 }
+
+.questionsDiv {
+    margin: 0 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .questions {
     padding-top: 20px;
+    max-width: 1200px;
+    gap: 5px;
 }
 .question {
-    padding: 20px;
+    padding: 20px 20px 0 20px;
     text-align: center;
 }

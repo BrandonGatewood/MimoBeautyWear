@@ -28,38 +28,38 @@ const Home = () => {
     return (
         <>
             <div className="ctaSection">
-                <div className="cta">
+                <div className="maxWidth">
                     <div className="ctaContent">
                         <h1>Discover a</h1>
                         <h1>New Look and Feel</h1>
-                        <div className="desktopButtonSection">
+                        <div className="ctaButtonDesktop">
                             <a href="https://brandongatewood.github.io/MimoBeautyWear/Services">
-                                <button className="ctaButton">Find Your Perfect Fit</button>
+                                <button className="buttonPrimary">Find Your Perfect Fit</button>
                             </a>
                         </div>
                     </div>
                     <div className="ctaImg">
                         <img src={ fakeImgMobile } className="imageMobile" alt="img of a lady performing cosmetic tattoo" />
-                        <img src={ fakeImgDesktop } className="imageDesktop" alt="img of a lady performing cosmetic tattoo" />
+                    </div>
+                    <div className="ctaButtonMobile">
+                        <a href="https://brandongatewood.github.io/MimoBeautyWear/Services">
+                            <button className="buttonPrimary">Find Your Perfect Fit</button>
+                        </a>
                     </div>
                 </div>
-                <div className="mobileButtonSection">
-                    <a href="https://brandongatewood.github.io/MimoBeautyWear/Services">
-                        <button className="ctaButton">Find Your Perfect Fit</button>
-                    </a>
-                </div>
             </div> 
-            <div className="aboutUs">
-                <h1>About Us</h1>
-                <p className="aboutUsBody">
-                    Welcome to Mimo Beauty Wear, where beauty meets precision since 1990. Located in Hawaii, 
-                    our salon offers cosmetic tattoos, expert hair styling, rejuvenating skin treatments, 
-                    and luxurious eyelash extensions. Our dedication to quality has earned us multiple "Hawaii's 
-                    Best" awards, including second place in 2015 for Eyelash Extension Services and finalist 
-                    recognition in 2020 and 2021 for Hair Salon services.
-                </p>
+            <div className="aboutUsSection">
+                <div className="maxWidthAboutUs">
+                    <h2>About Us</h2>
+                    <p className="aboutUsBody">
+                        Welcome to Mimo Beauty Wear, where beauty meets precision since 1990. Located in Hawaii, 
+                        our salon offers cosmetic tattoos, expert hair styling, rejuvenating skin treatments, 
+                        and luxurious eyelash extensions. Our dedication to quality has earned us multiple "Hawaii's 
+                        Best" awards, including second place in 2015 for Eyelash Extension Services and finalist 
+                        recognition in 2020 and 2021 for Hair Salon services.
+                    </p>
+                </div>
             </div>
-            <Slider />
             <Footer />
         </>
     )

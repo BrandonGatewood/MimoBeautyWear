@@ -22,6 +22,7 @@ const ServicesAccordionItem = ({ category, type }) => {
                         open && <Close />
                     }
                 </div>
+            </button>
                 {
                     open && 
                     <div className="serviceBody">
@@ -37,7 +38,6 @@ const ServicesAccordionItem = ({ category, type }) => {
                         }
                     </div>
                 }
-            </button>
             </>
         );
     }

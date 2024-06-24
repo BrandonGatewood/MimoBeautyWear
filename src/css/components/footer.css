@@ -111,20 +111,27 @@ p {
 
 /** Desktop view Footer **/
 @media (min-width: 1024px) {
+    .footerContainer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
     .info {
         width: 100%;
+        max-width: 1200px;
         flex-wrap: nowrap;
     }
 
     .contactInfo {
-        width: 30%;
+        width: 26%;
     }
     .hoursInfo {
-        width: 40%;
+        width: 48%;
     }
     .socialsInfo {
         padding-top: 0;
-        width: 30%;
+        width: 26%;
         display: flex;
         flex-wrap: wrap;
         align-items: start;

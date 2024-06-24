@@ -14,24 +14,24 @@ const FaqAccordionItem = ({ question, answer }) => {
     return(
         <>
         <button className="faqSection" onClick={ handleOpen }>
-                <div className="faqHeader">
-                    <h3>{ question }</h3>
-                    {
-                        !open && <Open /> 
-                    }
-                    {
-                        open && <Close />
-                    }
-                </div>
+            <div className="faqHeader">
+                <h3 className="q">{ question }</h3>
                 {
-                    open && 
-                    <div className="faqBody">
-                        <div className="aType">
-                            <p>{ answer }</p>
-                        </div>
-                    </div>
+                    !open && <Open /> 
                 }
-            </button>
+                {
+                    open && <Close />
+                }
+            </div>
+        </button>
+        {
+            open && 
+            <div className="faqBody">
+                <div className="aType">
+                    <p>{ answer }</p>
+                </div>
+            </div>
+        }
         </>
     );
 }

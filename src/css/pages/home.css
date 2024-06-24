@@ -1,7 +1,3 @@
-h1 {
-    margin: 0;
-}
-
 /** 
 
             Landing Page 
@@ -15,36 +11,28 @@ h1 {
     background: linear-gradient(180deg, var(--primary) 0%, var(--white) 100%);
 }    
 
-.ctaImg {
-    height: 500px;
+.ctaContent {
     text-align: center;
 }
 
-.cta {
-    padding-top: 40px;
+.ctaImg {
+    height: 500px;
 }
 
-.ctaButton {
-    width: 300px;
-    height: 50px;
-    background-color: var(--primary);
-    border: none;
+.imageMobile {
+    width: 100%;
+    height: 100%;
     border-radius: 5px;
-    font-weight: 600;
-    font-size: large;
 }
-.ctaButton:hover {
-    background-color: transparent;
-    border: 2px solid var(--primary);
-}
-.ctaButton:active {
-    background-color: transparent;
-    border: 1px solid var(--primary);
 
+.ctaButtonMobile, .ctaButtonDesktop {
+    padding: 60px 0;
+    display: none; 
 }
+
 
 /** About Us **/
-.aboutUs {
+.aboutUsSection {
     padding: 40px;
     display: flex;
     flex-direction: column;
@@ -52,104 +40,90 @@ h1 {
     border-bottom: 2px solid var(--primary);
 }
 
+.maxWidthAboutUs {
+    max-width: 1200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
-/** Mobile View Landing Page**/ 
-@media (max-width: 768px) {
-    .imageMobile {
-        display: block;
-        width: 100%;
-        height: 100%;
-    }
-    .imageDesktop {
-        display: none;
-    }
+.aboutUsBody {
+    padding-top: 20px;
+    text-align: center;
+}
 
-    .cta {
+
+
+/** Mobile and small Tablets **/
+@media (max-width: 600px) {
+    .ctaSection {
         display: flex;
         flex-direction: column;
         align-items: center;
     }
-
     .ctaContent {
-        text-align: center;
-        padding-bottom: 20px;
+        padding: 20px 0;
     }
 
-    .mobileButtonSection {
-        padding: 40px 0;
+    .ctaImg {
+        width: 80%;
+        height: 100%;
+        margin: 0 50px;
+    }
+
+    .ctaButtonMobile {
         display: flex;
         align-items: center;
         justify-content: center;
     }
-
-    .desktopButtonSection {
-        display: none;
-    }
-
-    .aboutUsBody {
-        width: 100%;
-        padding: 10px 20px 0 20px;
-    }
 }
 
-/** Tablet and Desktop View Landing Page **/
-@media (min-width: 769px) {
-    .imageMobile {
-        display: block;
-        width: 100%;
-        height: 100%;
-    }
-    .imageDesktop {
-        display: none;
-    }
-
-    .cta {
-        padding: 40px 20px;
+/** bigger Tablets **/
+@media (min-width: 601px) and (max-width: 768px) {
+    .maxWidth {
         display: flex;
         align-items: center;
-        justify-content: space-evenly;
+        justify-content: center;
     }
-
-    .ctaContent {
-        width: 100%;
-        text-align: center;
+    .ctaButtonDesktop {
+        display: flex;
+        align-items: center;
+        padding: 40px 20px;
     }
 
     .ctaImg {
+        width: 50%;
+        padding: 40px 20px 40px 0;
+    }
+}
+
+
+/** Laptop and small screens **/
+@media (min-width: 769px) {
+    .ctaSection {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+     .maxWidth {
         width: 100%;
+        max-width: 1200px;
+        padding: 0 20px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .ctaButtonDesktop {
+        display: flex;
+        align-items: center;
+        padding: 40px;
     }
 
-    .desktopButtonSection {
-        padding-top: 40px;
-    }
-    .mobileButtonSection {
-        display: none;
+    .ctaImg {
+        width: 40%;
+        height: 600px;
+        margin: 20px 0;
     }
 }
 
-@media (min-width: 850px) {
-    .imageMobile {
-        display: none;
-    }
-    .imageDesktop {
-        display: block;
-        width: 100%;
-        height: 100%;
-    }
 
-}
-
-
-/** Desktop View **/ 
-@media (min-width: 1024px) {
-    .aboutUsBody {
-        padding: 10px 60px 0 60px; 
-    }
-}
-
-/** Wide desktop view **/
-@media (min-width: 1858px) {
-    .aboutUsBody {
-        padding: 10px 500px 0 500px; 
-    }
-}

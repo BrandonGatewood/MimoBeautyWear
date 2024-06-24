@@ -1,4 +1,11 @@
+.informationDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .information {
+    max-width: 1200px;
     text-align: center;
     padding: 20px;
 }
@@ -7,9 +14,18 @@
     text-align: center;
     padding: 20px 0;
 }
+
+.mapDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .map {
+    max-width: 1200px;
+    width: 100%;
     text-align: center;
-    padding: 20px;
+    padding: 20px ;
 }
 
 iframe {

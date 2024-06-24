@@ -1,22 +1,27 @@
 [
     {
         "id": 0,
-        "question": "",
-        "answer": ""
+        "question": "What services do you offer at your salon?",
+        "answer": "Our salon offers a variety of specialized services including cosmetic tattoos (eyeliner, lipliner, brows, and touch-ups), eyelash extensions (classic, hybrid, and retouch), comprehensive hair services (haircuts, color, and highlights), and advanced skin treatments (IPL and HIFU). We are dedicated to providing high-quality services to enhance your natural beauty and meet your specific needs."
     },
     {
         "id": 1,
-        "question": "",
-        "answer": ""
+        "question": "Do I need to make an appointment, or do you accept walk-ins?",
+        "answer": " Our salon operates on an appointment-only basis to provide the best service for each client. You can schedule your appointment by calling us or sending a text message. This allows us to ensure that each client receives the full attention and time needed for their services, creating a personalized and high-quality experience."
     },
     {
         "id": 2,
-        "question": "",
-        "answer": ""
+        "question": "What is your cancellation policy?",
+        "answer": "We understand that sometimes plans change. We kindly ask that you provide at least 24 hours' notice if you need to cancel or reschedule your appointment. Cancellations made within 24 hours of the appointment time may be subject to a cancellation fee."
     },
     {
         "id": 3,
-        "question": "",
-        "answer": ""
+        "question": "Do you offer consultations before hair coloring or other major treatments?",
+        "answer": "Yes, we offer complimentary consultations for all major treatments, including hair coloring, cosmetic tattoos, eyelash extensions, and advanced skin treatments. During the consultation, we will discuss your desired look, assess your hair, skin, or lash condition, and provide professional recommendations to achieve the best results tailored to your needs."
+    },
+    {
+        "id": 4,
+        "question": "Do you offer consultations before hair coloring or other major treatments?What measures do you take to ensure a clean and safe environment?",
+        "answer": "The health and safety of our clients and staff are our top priorities. We adhere to strict hygiene protocols, including regular sanitization of all tools and equipment, thorough cleaning of the salon between clients, and the use of disposable items where possible. Additionally, our staff follows all recommended guidelines for personal hygiene and protective measures."
     }
 ]
