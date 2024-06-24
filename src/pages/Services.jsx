@@ -84,7 +84,7 @@ const Services = () => {
         </div>
         <div className="bookAppointmentContainer">
             <p className="pricing">For pricing information, please contact us directly.</p>
-            <a href="/Contact">
+            <a href="tel:808-955-0029">
                 <button className="bookButton">Book Appointmnet</button>
             </a>
         </div>
